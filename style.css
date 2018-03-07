@@ -51,6 +51,7 @@ p {
 #logo {
 	width: 300px;
 	margin-top: 50px;
+	transition: all ease 0.3s;
 }
 
 @media only screen and (max-width: 700px) {
@@ -66,6 +67,14 @@ p {
 	#main-text {
 		max-width: 80%;
 	}
+}
 
+@media only screen and (min-width: 800px) {
+	li a:hover {
+		padding: 20px 65px 20px 65px;
+	}
 
+	#logo:hover {
+		width: 350px;
+	}
 }
