@@ -1,0 +1,71 @@
+
+/*Reset all of the margins and padding to zero*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	text-align: center;
+	font-family: Helvetica, sans-serif;
+}
+
+nav {
+	margin-top: 80px;
+	margin-bottom: 80px;
+	min-width: 300px;
+}
+
+li {
+	display: inline;
+	list-style: none;
+}
+
+li a {
+	margin: 0px 10px 0px 10px;
+	padding: 20px 50px 20px 50px;
+	color: black;
+	border: black 3px solid;
+	text-decoration: none;
+	transition: all ease 0.2s;
+}
+
+li a:hover {
+	background-color: black;
+	color: white;
+}
+
+p {
+	margin-top: 20px;
+}
+
+#main-text {
+	max-width: 700px;
+	margin: auto;
+	margin-bottom: 50px;
+	min-width: 300px;
+
+}
+
+#logo {
+	width: 300px;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 700px) {
+	li {
+		display: block;
+		margin: 60px;
+	}
+
+	body {
+		font-size: 1.2rem;
+	}
+
+	#main-text {
+		max-width: 80%;
+	}
+
+
+}
