@@ -4,16 +4,6 @@ body {
 	font-family: Raleway, sans-serif;
 }
 
-#landing {
-	height: 600px;
-	background: pink;
-	/*border: 2px blue solid;*/
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-}
-
 h1 {
 	font-size: 3rem;
 	color: white;
@@ -68,10 +58,14 @@ p {
 	max-width: 60%;
 }
 
-@media only screen and (max-width: 660px) {
+@media only screen and (max-width: 680px) {
 
 	li {
 		display: block;
+	}
+
+	h1 {
+		font-size: 2.5rem;
 	}
 
 	a, #currentPage {
@@ -80,11 +74,16 @@ p {
 	}
 
 	#currentPage {
-/*		border-left: solid white 3px;*/
+		border: solid white 3px;
+		background-color: #ffa8b6;
 	}
 
 	a {
 		border: solid white 3px;
+	}
+
+	a:hover {
+		background-color: #ffb2be;
 	}
 }
 
